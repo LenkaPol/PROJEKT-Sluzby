@@ -24,21 +24,115 @@ p {
     color: #8B8B8B;
     font-size: 16px;
     font-weight: 300;
-    margin: 30px 0;
 }
 h2 {
     font-size: 16px;
     font-weight: 500;
+    margin: 60px 0 0 0;
 }
-.button {
+.button p {
     font-size: 14px;
     font-weight: 400;
+    padding: 11px 30px;
+    margin: 0;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 .box p {
     font-size: 13px;
     font-weight: 300;
+    padding: 30px 20px 20px 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    flex-grow: 1;
+    display: flex;
 }
 header img {
     max-width: 100%;
+}
+header p {
+    margin: 40px 0 30px 0;
+}
+.button {
+    display: inline-block;
+}
+.modry {
+    background-color: #407BFF;
+}
+.sedy {
+    background-color: #8B8B8B;
+}
+P.sedy {
+    margin-bottom: 0;
+}
+.box {
+    display: flex;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(64, 123, 255, 0.2);
+    margin-bottom: 15px;
+}
+.podnadpis {
+    margin: 15px 0 30px 0;
+}
+.cestovka {
+    display: block;
+}
+.box img {
+    padding: 20px 0 20px 20px;
+}
+.posledni {
+    margin-bottom: 0;
+}
+@media screen and (min-width: 640px) {
+   h1 {
+    margin-top: 30px;
+   } 
+   .button {
+    display: flex;
+    justify-content: center;
+   }
+   p.sedy {
+    margin-bottom: auto;
+   }
+   .button p {
+    margin-bottom: 0;
+   }
+   p.modry {
+    margin-right: 20px;
+   }
+   h2 {
+    margin: 80px 0 17px 0;
+   }
+   .podnadpis {
+    margin: 17px 0 40px 0;
+   }
+   .vedlesebe {
+    display: flex;
+    justify-content: center;
+   }
+   .box {
+    flex-direction: column;
+    margin-bottom: 0;
+    align-items: center;
+    margin-right: 20px;
+   }
+   .box img {
+    padding: 40px 0 0 0;
+   }
+   .cestovka {
+    display: flex;
+    flex-direction: column;
+   }
+   .box p {
+    padding: 20px 15px;
+   }
+   .posledni {
+    margin-right: 0;
+   }
+}
+@media screen and (min-width: 1100px) {
     
 }
