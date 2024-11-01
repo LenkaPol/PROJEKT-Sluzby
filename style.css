@@ -118,6 +118,8 @@ P.sedy {
     margin-bottom: 0;
     align-items: center;
     margin-right: 20px;
+    flex-grow: 1;
+    flex-basis: calc(100% / 3);
    }
    .box img {
     padding: 40px 0 0 0;
@@ -134,5 +136,63 @@ P.sedy {
    }
 }
 @media screen and (min-width: 1100px) {
-    
+   body {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 60px 0;
+   } 
+   header {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+    align-items: center;
+   }
+   .leva {
+    flex: 1;
+    text-align: left;
+   }
+   hr {
+    float: left;
+   }
+   .button {
+    justify-content: start;
+   }
+   .kontajner img {
+    width: 425px;
+   }
+   .kontajner {
+    justify-content: center;
+    flex: 1;
+   }
+   .cestovka {
+    flex-direction: row-reverse;
+    margin-top: 80px;
+   }
+   .delegat {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+   }
+   .vedlesebe {
+    width: 550px;
+    margin-right: 60px;
+    align-items: center;
+   }
+   .kontajner1 {
+    width: 430px;
+    text-align: left;
+   }
+   .box p {
+    padding: 20px 15px 40px 15px;
+   }
+   .kontajner2 {
+    width: 430px;
+    text-align: left;
+   }
+   .vedlesebe2 {
+    width: 550px;
+    margin-right: 0;
+    margin-left: 60px;
+    align-items: center;
+   }
 }
